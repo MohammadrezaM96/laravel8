@@ -1,0 +1,564 @@
+@font-face {
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Bold.eot');
+    src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/iransans/woff2/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/iransans/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/iransans/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Medium.eot');
+    src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/iransans/woff2/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/iransans/woff/IRANSansWeb(FaNum)_Medium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/iransans/ttf/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Light.eot');
+    src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/iransans/woff2/IRANSansWeb(FaNum)_Light.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/iransans/woff/IRANSansWeb(FaNum)_Light.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/iransans/ttf/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_UltraLight.eot');
+    src: url('../fonts/iransans/eot/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/iransans/woff2/IRANSansWeb(FaNum)_UltraLight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/iransans/woff/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/iransans/ttf/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IRANSans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/iransans/eot/IRANSansWeb(FaNum).eot');
+    src: url('../fonts/iransans/eot/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/iransans/woff2/IRANSansWeb(FaNum).woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/iransans/woff/IRANSansWeb(FaNum).woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/iransans/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'yekan';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/yekan/yekan.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('../fonts/yekan/yekan.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/yekan/yekan.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'kharazmi';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/kharazmi/IRAN Kharazmi.eot');
+    src: url('../fonts/kharazmi/IRAN Kharazmi.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('../fonts/kharazmi/IRAN Kharazmi.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('../fonts/kharazmi/IRAN Kharazmi.ttf') format('truetype');
+}
+
+body,
+*,
+.tile h1,
+.tooltip,
+.popover,
+.sweet-alert,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+textarea {
+    font-family: 'IRANSans' !important;
+}
+
+.popover-title {
+    direction: ltr !important;
+}
+
+.menu-arrow {
+    font-family: 'Material Design Icons' !important;
+}
+
+#sidebar-menu > ul > li > a:active, #sidebar-menu > ul > li > a:focus, #sidebar-menu > ul > li > a:hover {
+    color: #303841;
+    text-decoration: none;
+}
+
+#sidebar-menu > ul > li > a.active {
+    color: white;
+    background-color: #303841;
+    border-right: 3px solid #00b393;
+}
+
+#sidebar-menu > ul > li > a.active:hover {
+    color: white;
+    background-color: #303841;
+    border-right: 3px solid #00b393;
+}
+
+#sidebar-menu > ul > li > a:hover {
+    color: #303841;
+}
+
+.note-editable {
+    min-height: 150px;
+    margin: 20px 0;
+}
+
+.datepicker-dropdown {
+    left: inherit !important;
+}
+
+[data-name="Md-PersianDateTimePicker"] table tr td {
+    width: 37px;
+    text-align: center;
+    padding: 0;
+}
+
+[data-name="Md-PersianDateTimePicker"] table tr td[data-name="day"],
+[data-name="Md-PersianDateTimePicker"] table tr td[data-name="today"] {
+    cursor: pointer;
+}
+
+[data-name="Md-PersianDateTimePicker"] table tr td button {
+    padding: 10px 5px;
+    background-color: transparent;
+}
+
+[data-name="Md-PersianDateTimePicker-HeaderTable"] tr td {
+    border: none;
+}
+
+[data-name="Md-PersianDateTimePicker"] table tr td[data-name="disabled-day"] {
+    color: #bbb;
+}
+
+[aria-labelledby="dropdownMenuPersianYear"] li,
+[aria-labelledby="dropdownMenuPersianMonths"] li {
+    padding: 5px;
+    text-align: center;
+}
+
+[aria-labelledby="dropdownMenuPersianYear"] li a,
+[aria-labelledby="dropdownMenuPersianMonths"] li a {
+    width: 100%;
+    display: block;
+    font-size: 16px;
+}
+
+[aria-labelledby="dropdownMenuPersianMonths"] li.divider {
+    border-bottom: 1px solid #eee;
+    padding: 0;
+}
+
+[data-name="Md-PersianDateTimePicker-HeaderTable"] {
+    margin-bottom: 0;
+}
+
+.faq-edit {
+    color: #18b495 !important;
+    background-color: #d2f9f1 !important;
+}
+
+.faq-delete {
+    color: #ec1334 !important;
+    background-color: #fbd0d6 !important;
+}
+
+.faqItem .faq-delete,
+.faqItem .faq-edit {
+    transform: translateY(-20px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.showBtn .faq-delete,
+.showBtn .faq-edit {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.faqItem .faq-delete {
+    transition-delay: .1s;
+}
+
+.faq-answer {
+    min-height: 50px;
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid,
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+    background-position: center left calc(.375em + .1875rem) !important;
+}
+
+.btn-group2 {
+    direction: rtl;
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.btn-group2 .btn:not(:first-child):not(:last-child) {
+    border-radius: 0;
+}
+
+.btn-group2 .btn {
+    border-radius: 0.5rem;
+}
+
+.btn-group2 > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-group2 > .btn:last-child:not(:first-child),
+.btn-group2 > .dropdown-toggle:not(:first-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-group > .form-control:focus {
+    z-index: 0;
+}
+
+.map {
+    width: 100%;
+    height: 345px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invalid-tooltip,
+.valid-tooltip {
+    left: 6px;
+    top: 66px;
+}
+
+.toast-top-right {
+    top: 70px !important;
+    left: 12px !important;
+    right: unset !important;
+}
+
+.navbar-custom {
+    background-color: #1d2632;
+    z-index: 20000;
+    border-bottom: 3px solid #00b393;
+}
+
+
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+    content: "Ø§Ù†ØªØ®Ø§Ø¨ ØªØµÙˆÛŒØ±";
+}
+
+td.alert-danger {
+    text-align: center;
+    padding: 30px 0;
+}
+
+a[rel="prev"],
+a[rel="next"] {
+    border-radius: 0 !important;
+}
+
+img[data-src] {
+    filter: blur(20px);
+    transition: all 0.5s linear 0.4s
+}
+
+img[data-src][src] {
+    filter: blur(0)
+}
+
+.sliderImg {
+    width: 315px;
+    height: 170px;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+
+.product-box:hover img {
+    filter: blur(8px);
+    transition: 0.1s !important;
+}
+
+.product-priority {
+    position: relative;
+    left: 500px;
+}
+
+.product-box:hover .product-priority {
+    left: 0;
+    transition: 0.2s;
+}
+
+.productDetailImage {
+    width: 100px;
+}
+
+.bs-searchbox .form-control {
+    padding: 10px !important;
+}
+
+.myCheckbox label::before {
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    right: -20px !important;
+    cursor: pointer;
+}
+
+.myCheckbox input[type=checkbox]:checked + label::after {
+    right: 6px !important;
+    top: 13px !important;
+    cursor: pointer;
+}
+
+.myCheckbox label {
+    position: relative;
+    right: 20px !important;
+    cursor: pointer;
+}
+
+.select2-search__field {
+    padding: 2px 10px !important;
+    direction: rtl !important;
+}
+
+.currentImage {
+    max-width: 150px;
+    max-height: 100px;
+}
+
+#sidebar-menu > ul > li > ul {
+    padding-right: 0px !important;
+}
+
+.nav-second-level {
+    background-color: #f0f2f5;
+}
+
+.nav-second-level li {
+    padding-right: 17px !important;
+}
+
+.deleteContactInfo button {
+    border-radius: 2px 0 0 2px !important;
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid,
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+    padding-right: 10px !important;
+}
+
+.nav-second-level li.active {
+    background-color: #d2d9e0;
+    border-bottom: 1px solid #566676;
+}
+
+.nav-second-level li.active > a,
+.nav-third-level li.active > a {
+    color: #20262c;
+}
+
+.nav-second-level li a:focus,
+.nav-second-level li a:hover,
+.nav-thrid-level li a:focus,
+.nav-thrid-level li a:hover {
+    color: #0b0d0f;
+}
+
+.select2-container {
+    width: 100% !important;
+}
+
+.product-box .product-action {
+    padding: 1.5rem 1rem 0 0 !important;
+}
+
+.card-box {
+    padding: 1.5rem 0.75rem !important;
+}
+
+.select2-search--inline input {
+    min-width: 5em !important;
+}
+
+.seoTitle {
+    text-align: center;
+    border-top: 1px solid #98a6ad;
+    padding-top: 10px;
+    color: #98a6ad;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.map-marker {
+    position: absolute;
+    z-index: 1000;
+    transition: all .3s ease;
+    transform: translateY(75px);
+    height: 60px;
+    width: 60px;
+    right: calc(50% - 30px);
+    top: calc(50% - 93px);
+}
+
+.map-marker img {
+    height: 60px;
+    width: 60px;
+}
+
+.map-marker::after {
+    transition: all .1s ease;
+    content: '';
+    width: 18px;
+    height: 6px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.278431);
+    transform: translateY(5px);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    margin: auto;
+}
+
+.active-marker {
+    transform: translateY(60px) !important;
+}
+
+.active-marker::after {
+    content: '';
+    width: 18px;
+    height: 6px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.6) !important;
+    transform: translateY(20px) !important;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    margin: auto;
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.278431);
+}
+
+#logFiltering {
+    position: fixed;
+    z-index: 100000000;
+    bottom: 50px;
+    left: 15px;
+}
+
+@media only screen and (min-width: 800px) {
+    .timeline-desk {
+        min-width: 530px;
+    }
+}
+
+.badge-trash {
+    top: -9px !important;
+    left: 7px !important;
+}
+
+.trPriority {
+    transition: all .3s ease;
+}
+
+.media-container {
+    padding: 15px 0;
+}
+
+.media-container .d-flex .file-viewer {
+    width: 100%;
+    height: 160px;
+    border: 3px dashed #d4d4d4;
+    border-radius: 10px;
+    color: #d4d4d4;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.media-container .d-flex .file-viewer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.media-container .d-flex .delete-file {
+    position: absolute;
+    top: 8px;
+    right: 18px;
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    border-top-right-radius: 6px;
+}
+
+.media-container .d-flex .delete-file i {
+    color: var(--white);
+}
+
+
+
+/*image-uploader*/
+body .image-model .image-uploader {
+    border: none;
+    position: unset;
+    min-height: unset;
+}
+body .image-model .image-uploader .uploaded-image {
+    border-radius: 15px;
+    height: 180px;
+}
+@media (min-width: 1366px) {
+    body .image-model .image-uploader .uploaded-image {
+        width: calc(19.666667% - 1rem);
+    }
+}
+body .image-model .image-uploader .uploaded-image img {
+    border-radius: 15px;
+}
+body .image-model .image-uploader .uploaded-image .delete-image {
+    background-color: #ffffffa8;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    padding: 0;
+    color: #dc3545;
+}
+body .image-model .image-uploader .upload-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+body .image-model .image-uploader .upload-button .upload-image {
+    background-color: #be9d85;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    padding: 4px;
+}
